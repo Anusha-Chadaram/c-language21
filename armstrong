@@ -1,0 +1,23 @@
+//armstrong
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int n,k,rem,sum=0;
+	scanf("%d",&k);
+	n=k;
+	while(n!=0)
+	{
+		rem=n%10;
+		sum=sum+(rem*rem*rem);
+		n=n/10;
+		
+		
+	}
+	if(sum==k)
+	printf("armstrong");
+	else
+	printf("not armstrong");
+	
+	
+}
